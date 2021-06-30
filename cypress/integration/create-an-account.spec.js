@@ -16,6 +16,7 @@ describe("Create Account Tests", () => {
       cy.intercept("POST", "/index.php").as("createAccount");
       cy.visit("/", { failOnStatusCode: false });
       authPage.clickSignIn();
+      authPage.validateCreateAccountFormElements();
     });
 
     it("Should show error when empty email is submitted ", () => {
