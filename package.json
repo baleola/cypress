@@ -1,0 +1,17 @@
+{
+  "name": "beamery",
+  "version": "1.0.0",
+  "description": "Automation Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "cypress run",
+    "cy:run:headed": "cypress run --headed"
+  },
+  "author": "Ola Bale",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^7.6.0",
+    "faker": "^5.5.3"
+  }
+}
