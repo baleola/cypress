@@ -7,5 +7,5 @@
 ## 🧪 How to Run The Tests
 
 - `npm run cy:run` to run tests in default headless mode
-- `npm run cy:run` to open and run the tests with Cypress UI
+- `npm run cy:run:headed` to open and run the tests with Cypress UI
 
